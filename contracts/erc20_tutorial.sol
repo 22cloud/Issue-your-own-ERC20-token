@@ -4,8 +4,8 @@ pragma solidity ^0.4.24;
 // '0Fucks' token contract
 //
 // Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
+// Symbol      : WATU
+// Name        : WATU Token
 // Total supply: 100000000
 // Decimals    : 18
 //
@@ -113,8 +113,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "0FUCKS";
-        name = "0 Fucks Token";
+        symbol = "WATU";
+        name = "Watu Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
         balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
